@@ -15,9 +15,7 @@ public class RepositorioEmpleados {
 
         empleados.put(empleado.getCedula(), empleado);
         return true;
-    }
-
-    public EmpleadoBase buscar(String cedula) {
+    }    public EmpleadoBase buscar(String cedula) {
         return empleados.get(cedula);
     }
 
