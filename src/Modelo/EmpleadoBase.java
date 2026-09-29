@@ -1,4 +1,5 @@
 package Modelo;
+
 public class EmpleadoBase {
     private final String cedula;
     private String nombre;
@@ -9,7 +10,6 @@ public class EmpleadoBase {
         this.nombre = nombre;
         setSalarioBase(salarioBase);
     }
-
 
     public String getCedula() {
         return cedula;
@@ -22,7 +22,6 @@ public class EmpleadoBase {
     public double getSalarioBase() {
         return salarioBase;
     }
-
 
     public void setSalarioBase(double salarioBase) {
         if (salarioBase >= 0) {
