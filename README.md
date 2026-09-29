@@ -1,0 +1,3 @@
+1. No fue necesario modificar calcularTotalNomina() para incluir a los comerciales, porque el método ya trabaja con objetos del tipo general EmpleadoBase, y EmpleadoComercial hereda de esa clase. Gracias al polimorfismo, Java puede tratar un EmpleadoComercial como un EmpleadoBase y ejecutar el comportamiento correspondiente.
+
+2. Se modificaron 2 archivos de la capa modelo: EmpleadoComercial y RepositorioEmpleados (si esos son los que modificaste en la guía). Esto demuestra que MVC permite separar responsabilidades: los cambios relacionados con los datos y la lógica del modelo se hacen principalmente en Modelo, sin tener que modificar toda la interfaz o el controlador.
